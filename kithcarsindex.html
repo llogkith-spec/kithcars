@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KITHCARS | Trusted Garage in Hackbridge & Wallington</title>
+  <meta name="description" content="Expert vehicle servicing, bodywork, fleet support and recovery in Hackbridge and Wallington. Transparent pricing, quality workmanship, fast turnaround." />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- =========================================
+       HEADER
+       ========================================= -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-brand" href="index.html" aria-label="KITHCARS Home">
+        <img class="site-logo" src="assets/images/kithcars-logo.svg" alt="KITHCARS logo" />
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html" class="active">Home</a>
+        <a href="mechanical.html">Mechanical</a>
+        <a href="bodywork.html">Bodywork</a>
+        <a href="fleet.html">Fleet</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-cta">
+        <a class="header-phone" href="tel:02046299469">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          020 4629 9469
+        </a>
+        <a class="btn btn-primary" href="#contact">Get a Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- =========================================
+         HERO
+         ========================================= -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+          <div class="hero-badge">Trusted Local Garage</div>
+          <h1>Quality repairs,<br><span class="accent">honest pricing</span>,<br>fast turnaround.</h1>
+          <p class="lead">KITHCARS delivers expert mechanical work, precision bodywork and fleet support for drivers and businesses in Hackbridge and Wallington.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">
+              Get a Free Quote
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+            <a class="btn btn-outline" href="#services">View Services</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <strong>15+</strong>
+              <span>Years experience</span>
+            </div>
+            <div class="hero-stat">
+              <strong>5,000+</strong>
+              <span>Vehicles serviced</span>
+            </div>
+            <div class="hero-stat">
+              <strong>4.9★</strong>
+              <span>Customer rating</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="float-card float-card--tl">
+            <div class="float-card-inner">
+              <div class="float-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+              </div>
+              <div class="float-text">
+                <strong>Workmanship Warranty</strong>
+                <span>On every repair</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-img">
+            <img src="KithCarsPhotos/30.jpg" alt="KITHCARS workshop in Hackbridge" loading="eager" />
+          </div>
+
+          <div class="float-card float-card--br">
+            <div class="float-card-inner">
+              <div class="float-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div class="float-text">
+                <strong>Same-Day Repairs</strong>
+                <span>Where possible</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================
+         REGISTRATION WIDGET
+         ========================================= -->
+    <section class="reg-section">
+      <div class="container">
+        <div class="reg-section-inner">
+          <h2>Smart Repairs Start Here</h2>
+          <div class="reg-card">
+            <form id="reg-form" novalidate>
+
+              <!-- Web3Forms config — paste your key below -->
+              <input type="hidden" name="access_key" value="db31da4b-5331-453a-9b9c-d6fb1fbbd264" />
+              <input type="hidden" name="subject" value="New Lead — KITHCARS Smart Repair Enquiry" />
+              <input type="hidden" name="from_name" value="KITHCARS Website" />
+              <input type="hidden" name="redirect" value="false" />
+
+              <div class="reg-field">
+                <label class="reg-label" for="reg-plate">Enter your vehicle registration</label>
+                <div class="plate-wrap">
+                  <div class="plate-badge">
+                    <svg class="plate-flag" viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="60" height="40" fill="#012169"/>
+                      <line x1="0" y1="0" x2="60" y2="40" stroke="white" stroke-width="10"/>
+                      <line x1="60" y1="0" x2="0" y2="40" stroke="white" stroke-width="10"/>
+                      <polygon points="0,0 10,0 60,33 60,40 50,40 0,7" fill="#C8102E"/>
+                      <polygon points="60,0 50,0 0,33 0,40 10,40 60,7" fill="#C8102E"/>
+                      <rect x="24" y="0" width="12" height="40" fill="white"/>
+                      <rect x="0" y="14" width="60" height="12" fill="white"/>
+                      <rect x="26.5" y="0" width="7" height="40" fill="#C8102E"/>
+                      <rect x="0" y="16.5" width="60" height="7" fill="#C8102E"/>
+                    </svg>
+                    <span class="plate-uk">UK</span>
+                  </div>
+                  <input type="text" id="reg-plate" name="Vehicle Registration" class="plate-input" placeholder="AB12 CDE" maxlength="8" required autocomplete="off" />
+                </div>
+                <a href="https://www.gov.uk/get-vehicle-information-from-dvla" target="_blank" rel="noopener noreferrer" class="plate-link">Don't know your vehicle registration?</a>
+              </div>
+
+              <div class="reg-field">
+                <label class="reg-label" for="reg-postcode">Enter your Postcode</label>
+                <input type="text" id="reg-postcode" name="Postcode" class="reg-input" placeholder="e.g. SM6 7HN" required autocomplete="postal-code" />
+              </div>
+
+              <div class="reg-field">
+                <label class="reg-label" for="reg-product">Service Category <span class="required">*</span></label>
+                <select id="reg-product" name="Service Category" class="reg-select" required>
+                  <option value="" disabled selected>Select a category</option>
+                  <option value="mechanical.html">Mechanical &amp; Servicing</option>
+                  <option value="bodywork.html">Bodywork &amp; Customisation</option>
+                  <option value="fleet.html">Fleet Services</option>
+                  <option value="fleet.html#recovery">Recovery &amp; Hire</option>
+                </select>
+              </div>
+
+              <div class="reg-field" id="subservice-field" style="display:none">
+                <label class="reg-label" for="reg-subservice">Specific Service <span class="required">*</span></label>
+                <select id="reg-subservice" name="Specific Service" class="reg-select">
+                  <option value="" disabled selected>Select a service</option>
+                </select>
+              </div>
+
+              <button type="submit" id="reg-btn" class="btn btn-reg">
+                <span id="reg-btn-text">Get a Quote</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              </button>
+              <p class="form-reply-promise">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                We reply within 2 hours Mon–Fri &nbsp;·&nbsp; <a href="tel:02046299469">Prefer to call? 020 4629 9469</a>
+              </p>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         STATS STRIP
+         ========================================= -->
+    <div class="stats-strip">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <span class="stat-number">15+</span>
+            <span class="stat-label">Years in business</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">5,000+</span>
+            <span class="stat-label">Vehicles serviced</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Transparent quotes</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">4.9★</span>
+            <span class="stat-label">Customer satisfaction</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========================================
+         SERVICES
+         ========================================= -->
+    <section id="services" class="section section-alt">
+      <div class="container">
+        <div data-reveal>
+          <span class="section-label">Our Services</span>
+          <h2>Everything your vehicle needs,<br>under one roof.</h2>
+          <p class="lead" style="margin-top:1rem">From routine servicing to full bodywork and fleet support, we keep every vehicle safe, roadworthy and looking its best.</p>
+        </div>
+
+        <div class="services-grid" style="margin-top:3rem">
+
+          <article class="service-card" data-reveal data-delay="1">
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3>Mechanical & Servicing</h3>
+            <p>Routine servicing, diagnostics and repairs for all makes and models. We keep your vehicle compliant, safe and running smoothly.</p>
+            <div class="service-tags">
+              <span class="tag">MOT Prep</span>
+              <span class="tag">Brakes</span>
+              <span class="tag">Tyres</span>
+              <span class="tag">Diagnostics</span>
+              <span class="tag">Exhaust</span>
+            </div>
+            <a class="service-link" href="mechanical.html">
+              Learn more
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card" data-reveal data-delay="2">
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17H3a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h2l2-4h8l2 4h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></svg>
+            </div>
+            <h3>Bodywork & Customisation</h3>
+            <p>Precision scratch and dent repair, panel restoration, colour matching and resprays. We bring your vehicle back to showroom condition.</p>
+            <div class="service-tags">
+              <span class="tag">Scratch Repair</span>
+              <span class="tag">Dent Removal</span>
+              <span class="tag">Paintwork</span>
+              <span class="tag">Panel Repairs</span>
+            </div>
+            <a class="service-link" href="bodywork.html">
+              Learn more
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card" data-reveal data-delay="3">
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><path d="M16 8h4l3 3v5h-7V8z"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            </div>
+            <h3>Fleet Services</h3>
+            <p>Priority maintenance, flexible scheduling and weekly invoicing for businesses that need their vehicles on the road and performing.</p>
+            <div class="service-tags">
+              <span class="tag">Fleet Servicing</span>
+              <span class="tag">Priority Booking</span>
+              <span class="tag">Invoicing</span>
+              <span class="tag">Multi-Vehicle</span>
+            </div>
+            <a class="service-link" href="fleet.html">
+              Learn more
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+          <article class="service-card" data-reveal data-delay="4">
+            <div class="service-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 8 12 12 14 14"/><path d="M16.24 7.76a6 6 0 0 1 0 8.49m-8.48-.01a6 6 0 0 1 0-8.49"/></svg>
+            </div>
+            <h3>Recovery & Hire</h3>
+            <p>Fast recovery coordination when you need it, plus short-term vehicle hire to keep you mobile while your vehicle is being repaired.</p>
+            <div class="service-tags">
+              <span class="tag">Recovery</span>
+              <span class="tag">Vehicle Hire</span>
+              <span class="tag">Fast Response</span>
+            </div>
+            <a class="service-link" href="fleet.html#recovery">
+              Learn more
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         TRUST PILLARS
+         ========================================= -->
+    <section class="section">
+      <div class="container">
+        <div data-reveal style="text-align:center; max-width:38rem; margin-inline:auto; margin-bottom:3rem">
+          <span class="section-label">Why customers trust us</span>
+          <h2>Built on three simple promises.</h2>
+        </div>
+
+        <div class="pillars-grid">
+          <div class="pillar-card" data-reveal data-delay="1">
+            <div class="pillar-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+            </div>
+            <h3>Quality Workmanship</h3>
+            <p>Experienced, qualified technicians with a genuine commitment to high standards on every job — from a simple tyre change to a full engine rebuild.</p>
+          </div>
+
+          <div class="pillar-card" data-reveal data-delay="2">
+            <div class="pillar-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+            </div>
+            <h3>Transparent Pricing</h3>
+            <p>Clear quotes before we start, honest costs throughout, and no surprise charges when you come to collect. What we quote is what you pay.</p>
+          </div>
+
+          <div class="pillar-card" data-reveal data-delay="3">
+            <div class="pillar-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h3>Fast Communication</h3>
+            <p>Regular progress updates, clear scheduling and a customer-first approach. You'll always know exactly where your vehicle is and when it'll be ready.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         WHY US
+         ========================================= -->
+    <section id="why-us" class="section section-alt">
+      <div class="container">
+        <div class="why-grid">
+          <div data-reveal>
+            <span class="section-label">Why choose KITHCARS</span>
+            <h2>We make repairs easier<br>for local drivers.</h2>
+            <p class="lead" style="margin-top:1rem">Whether it's a quick service or a complex rebuild, we go the extra mile so getting your car fixed doesn't disrupt your day.</p>
+
+            <div class="feature-list">
+              <div class="feature-item">
+                <div class="feature-item-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div class="feature-item-text">
+                  <strong>Pick-up & drop-off available</strong>
+                  <span>We can collect and return locally so you don't have to rearrange your day.</span>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-item-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div class="feature-item-text">
+                  <strong>Courtesy car options</strong>
+                  <span>Stay mobile while your vehicle is with us — subject to availability.</span>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-item-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div class="feature-item-text">
+                  <strong>Same-day repairs where possible</strong>
+                  <span>Many jobs are completed the same day — we'll confirm at booking.</span>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-item-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div class="feature-item-text">
+                  <strong>Workmanship warranty included</strong>
+                  <span>All repairs come with a warranty for your peace of mind.</span>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-item-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div class="feature-item-text">
+                  <strong>All makes and models welcome</strong>
+                  <span>Cars, vans, fleet vehicles — we service them all.</span>
+                </div>
+              </div>
+              <div class="feature-item">
+                <div class="feature-item-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div class="feature-item-text">
+                  <strong>Transparent quotes before work starts</strong>
+                  <span>No surprises, no pressure — just honest pricing upfront.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div data-reveal data-delay="2">
+            <div class="cta-box">
+              <h3>Ready to book your vehicle in?</h3>
+              <p>Get in touch today for a free, no-obligation quote. We'll confirm availability and provide a clear price before any work begins.</p>
+              <a class="btn btn-primary" href="#contact">Request a Quote</a>
+              <div class="cta-divider"></div>
+              <div class="cta-details">
+                <div class="cta-detail">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  Mon – Fri: 8am – 5pm &nbsp;|&nbsp; Sat: 9am – 3pm
+                </div>
+                <div class="cta-detail">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                  <a href="tel:02046299469" style="color:inherit">020 4629 9469</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         GALLERY
+         ========================================= -->
+    <section class="section">
+      <div class="container">
+        <div data-reveal style="margin-bottom:2.5rem">
+          <span class="section-label">Recent Work</span>
+          <h2>Straight from our workshop.</h2>
+          <p class="lead" style="margin-top:1rem">Every vehicle gets our full attention. Here's a sample of the work we're proud of.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item gallery-item--featured" data-reveal>
+            <img src="KithCarsPhotos/29.jpg" alt="KITHCARS technician working on vehicle brakes" loading="lazy" />
+          </div>
+          <div class="gallery-item" data-reveal data-delay="1">
+            <img src="KithCarsPhotos/26.jpg" alt="Porsche Panamera serviced at KITHCARS" loading="lazy" />
+          </div>
+          <div class="gallery-item" data-reveal data-delay="2">
+            <img src="KithCarsPhotos/4.jpg" alt="BMW MOT at KITHCARS Hackbridge" loading="lazy" />
+          </div>
+          <div class="gallery-item" data-reveal data-delay="1">
+            <img src="KithCarsPhotos/25.jpg" alt="Nissan Qashqai on lift for clutch replacement" loading="lazy" />
+          </div>
+          <div class="gallery-item" data-reveal data-delay="2">
+            <img src="KithCarsPhotos/7.jpg" alt="BMW brake pads and disc replacement" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================
+         GOOGLE REVIEWS
+         ========================================= -->
+    <section class="section section-alt" id="reviews">
+      <div class="container">
+        <div data-reveal style="text-align:center; max-width:38rem; margin-inline:auto; margin-bottom:3rem">
+          <span class="section-label">Google Reviews</span>
+          <h2>What our customers say.</h2>
+          <div class="reviews-summary">
+            <div class="reviews-score">4.9</div>
+            <div>
+              <div class="reviews-stars" aria-label="4.9 out of 5 stars">
+                <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+                <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+                <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+                <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+                <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              </div>
+              <p class="reviews-count">Based on Google Reviews</p>
+            </div>
+            <div class="reviews-google-logo">
+              <svg height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="reviews-grid">
+
+          <div class="review-card" data-reveal data-delay="1">
+            <div class="review-header">
+              <div class="review-avatar">A</div>
+              <div class="review-meta">
+                <strong>Aaron Konadu</strong>
+                <span class="review-date">1 month ago</span>
+              </div>
+            </div>
+            <div class="review-stars" aria-label="5 stars">
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+            </div>
+            <p class="review-text">First of all, thank you. This is my first experience with Kith Cars, and it has been incredible. My BMW 1 Series needed a new timing chain and clutch — expensive fix, however the team, in particular Logan, gave me a fair price. Alongside their brilliant customer service, they were also able to offer me a courtesy car due to the extensive repair time. This, in my opinion, makes them stand out from most garages. Highly recommend.</p>
+          </div>
+
+          <div class="review-card" data-reveal data-delay="2">
+            <div class="review-header">
+              <div class="review-avatar">O</div>
+              <div class="review-meta">
+                <strong>Oliver Hine</strong>
+                <span class="review-date">2 months ago</span>
+              </div>
+            </div>
+            <div class="review-stars" aria-label="5 stars">
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+            </div>
+            <p class="review-text">Kithcars have been amazing at keeping my car in top condition. Their regular servicing always leaves my car running smoothly and feeling fresh every time. The team is professional, reliable, and clearly knows what they’re doing. It’s great to have a garage I can really trust. Highly recommend them to anyone who wants hassle-free, honest, top-notch car servicing!</p>
+          </div>
+
+          <div class="review-card" data-reveal data-delay="3">
+            <div class="review-header">
+              <div class="review-avatar">Z</div>
+              <div class="review-meta">
+                <strong>Ziaur Rahman</strong>
+                <span class="review-date">3 months ago</span>
+              </div>
+            </div>
+            <div class="review-stars" aria-label="5 stars">
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+            </div>
+            <p class="review-text">I had a fantastic experience with this garage from start to finish. The staff were friendly and professional — especially Sudha — and took time to clearly explain what needed to be done without any pressure or upselling. The work was completed efficiently and my car now runs perfectly.</p>
+          </div>
+
+          <div class="review-card" data-reveal data-delay="1">
+            <div class="review-header">
+              <div class="review-avatar">R</div>
+              <div class="review-meta">
+                <strong>Rajesh M</strong>
+                <span class="review-date">4 months ago</span>
+              </div>
+            </div>
+            <div class="review-stars" aria-label="5 stars">
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+            </div>
+            <p class="review-text">Great car service centre in Hackbridge. Friendly front office staff and good car service with decent pricing. I had no issues with my annual service and tyre replacement here. Definitely will visit again.</p>
+          </div>
+
+          <div class="review-card" data-reveal data-delay="2">
+            <div class="review-header">
+              <div class="review-avatar">T</div>
+              <div class="review-meta">
+                <strong>Thinushan Keitheswaran</strong>
+                <span class="review-date">5 months ago</span>
+              </div>
+            </div>
+            <div class="review-stars" aria-label="5 stars">
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+              <svg viewBox="0 0 20 20" fill="#fbbc04"><polygon points="10,1 12.9,7 19.5,7.6 14.5,12 16.2,18.5 10,15 3.8,18.5 5.5,12 0.5,7.6 7.1,7"/></svg>
+            </div>
+            <p class="review-text">I had a great experience with Kith Cars. The team was friendly, professional, and honest from start to finish. They explained everything clearly and kept me updated throughout the process. The work was done quickly and to a high standard, and the price was very reasonable. It’s rare to find a garage you can truly trust — I’ll definitely be coming back. Highly recommend!</p>
+          </div>
+
+        </div>
+
+        <div style="text-align:center; margin-top:2.5rem" data-reveal>
+          <a class="btn btn-outline" href="https://www.google.com/maps/place/KITH+Cars/@51.3791585,-0.1594699,545m/data=!3m2!1e3!4b1!4m6!3m5!1s0x487607eaf5ef8273:0x62f758e7463a651d!8m2!3d51.3791586!4d-0.154599!16s%2Fg%2F11xlrxbz7j" target="_blank" rel="noopener noreferrer">
+            See all reviews on Google
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================
+         CONTACT
+         ========================================= -->
+    <section id="contact" class="section section-alt">
+      <div class="container contact-grid">
+
+        <div class="contact-info" data-reveal>
+          <span class="section-label">Get in Touch</span>
+          <h2>Ready to get your vehicle back on the road?</h2>
+          <p class="lead">Drop us a message, call us direct, or come in and see us. We're happy to give you a free quote with no pressure.</p>
+
+          <div class="contact-details" style="margin-top:2.5rem">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div class="contact-text">
+                <strong>Opening Hours</strong>
+                <p>Mon – Fri: 8am – 5pm<br>Saturday: 9am – 3pm<br>Sunday: Closed</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-text">
+                <strong>Address</strong>
+                <p>Unit 1, Soho Mills<br>Hackbridge, Wallington<br>SM6 7HN</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="contact-text">
+                <strong>Phone</strong>
+                <a href="tel:02046299469">020 4629 9469</a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="contact-text">
+                <strong>Email</strong>
+                <a href="mailto:kithcarsinfo@gmail.com">kithcarsinfo@gmail.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div data-reveal data-delay="2">
+          <div class="contact-form-wrap">
+            <h3>Send us a message</h3>
+            <form id="contact-form" class="form-grid" novalidate>
+
+              <!-- Web3Forms config -->
+              <input type="hidden" name="access_key" value="db31da4b-5331-453a-9b9c-d6fb1fbbd264" />
+              <input type="hidden" name="subject" value="New Contact Enquiry — KITHCARS Website" />
+              <input type="hidden" name="from_name" value="KITHCARS Website" />
+              <input type="hidden" name="redirect" value="false" />
+
+              <div class="form-field">
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="Name" placeholder="David Smith" required />
+              </div>
+              <div class="form-field">
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone" name="Phone" placeholder="07700 900000" />
+              </div>
+              <div class="form-field form-field--full">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="Email" placeholder="you@example.com" required />
+              </div>
+              <div class="form-field form-field--full">
+                <label for="service">Service needed</label>
+                <select id="service" name="Service">
+                  <option value="" disabled selected>Select a service</option>
+                  <option>Mechanical &amp; Servicing</option>
+                  <option>Bodywork &amp; Customisation</option>
+                  <option>Fleet Services</option>
+                  <option>Recovery &amp; Hire</option>
+                  <option>MOT Preparation</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-field form-field--full">
+                <label for="message">Tell us about your vehicle &amp; the work needed</label>
+                <textarea id="message" name="Message" rows="4" placeholder="e.g. 2019 Ford Focus — brake pads need replacing, also interested in a full service..."></textarea>
+              </div>
+
+              <div class="form-field form-field--full form-submit">
+                <button type="submit" id="contact-btn" class="btn btn-primary">
+                  <span id="contact-btn-text">Send Message</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                </button>
+                <p class="form-reply-promise">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                  We reply within 2 hours Mon–Fri &nbsp;·&nbsp; <a href="tel:02046299469">Prefer to call? 020 4629 9469</a>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================
+       FOOTER
+       ========================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img class="site-logo" src="assets/images/kithcars-logo.svg" alt="KITHCARS logo" />
+          </div>
+          <p>Your trusted local garage for servicing, bodywork, fleet support and recovery in Hackbridge and Wallington. Quality workmanship, honest pricing, every time.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <nav class="footer-links">
+            <a href="mechanical.html">Mechanical & Servicing</a>
+            <a href="bodywork.html">Bodywork & Paintwork</a>
+            <a href="fleet.html">Fleet Services</a>
+            <a href="fleet.html#recovery">Recovery & Hire</a>
+          </nav>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <nav class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="#services">All Services</a>
+            <a href="#why-us">Why KITHCARS</a>
+            <a href="#contact">Get a Quote</a>
+          </nav>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="tel:02046299469">020 4629 9469</a>
+            </div>
+            <div class="footer-contact-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="mailto:kithcarsinfo@gmail.com">kithcarsinfo@gmail.com</a>
+            </div>
+            <div class="footer-contact-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Unit 1, Soho Mills, Hackbridge,<br>Wallington, SM6 7HN
+            </div>
+            <div class="footer-contact-item">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              Mon–Fri 8am–5pm · Sat 9am–3pm
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 KITHCARS Ltd &nbsp;·&nbsp; Company No: 15013598 &nbsp;·&nbsp; VAT No: 470844577</p>
+        <p>Unit 1, Soho Mills, Hackbridge, Wallington, SM6 7HN</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp floating button -->
+  <a class="whatsapp-float" href="https://wa.me/447470114333?text=Hi%20KITHCARS%2C%20I%27d%20like%20to%20get%20a%20quote%20for%20my%20vehicle." target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M16 0C7.163 0 0 7.163 0 16c0 2.822.736 5.473 2.027 7.776L0 32l8.437-2.007A15.93 15.93 0 0 0 16 32c8.837 0 16-7.163 16-16S24.837 0 16 0zm8.293 22.293c-.344.969-1.703 1.775-2.797 2.009-.747.159-1.722.286-5.003-1.075-4.197-1.713-6.9-5.972-7.107-6.249-.198-.278-1.666-2.216-1.666-4.225 0-2.009 1.053-2.994 1.426-3.406.344-.373.746-.466.994-.466.248 0 .497.002.714.013.229.012.537-.087.841.641.315.748 1.07 2.595 1.163 2.783.094.188.157.407.031.653-.125.248-.188.404-.375.622-.188.218-.396.488-.566.656-.188.188-.384.391-.165.766.219.375.974 1.607 2.091 2.604 1.438 1.282 2.65 1.679 3.025 1.867.375.188.594.157.813-.094.219-.25.938-1.094 1.188-1.469.249-.375.499-.313.841-.188.344.125 2.188 1.031 2.563 1.219.375.188.625.281.719.438.093.156.093.906-.25 1.876z"/></svg>
+    <span>Chat on WhatsApp</span>
+  </a>
+
+  <!-- Sticky mobile CTA bar — only visible on small screens -->
+  <div class="mobile-cta-bar" aria-label="Quick contact options">
+    <a class="mobile-cta-call" href="tel:02046299469">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      Call Us
+    </a>
+    <a class="mobile-cta-quote btn btn-primary" href="#contact">Get a Free Quote</a>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
